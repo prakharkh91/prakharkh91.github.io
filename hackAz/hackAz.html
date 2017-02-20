@@ -1,0 +1,34 @@
+<!--<div class="title">Tripster || Travel Recommendations</div>-->
+<div class="navigation" id="nav">
+    <img src="Content/imagesBubble/bg.png" />
+    <div class="item user">
+        <img src="Content/imagesBubble/bg_user.png" alt="" width="199" height="199" class="circle"/>
+        <!--<a href="#" class="icon"></a>-->
+        <h2 class="icon">Paris</h2>
+        <ul>
+            <li>{{places[1].destination}} </li>
+            <li>{{places[1].departureDate | date}}</li>
+            <li>{{places[1].fare | currency}}</li>
+        </ul>
+    </div>
+    <br />
+    <div class="item home">
+        <img src="Content/imagesBubble/bg_home.png" alt="" width="199" height="199" class="circle"/>
+        <h2 class="icon">London</h2>
+        <ul>
+            <li>{{places[2].destination}} </li>
+            <li>{{places[2].departureDate | date}}</li>
+            <li>{{places[2].fare | currency}}</li>
+        </ul>
+    </div>
+    <br />
+    <div class="item shop">
+        <img src="Content/imagesBubble/bg_shop.png" alt="" width="199" height="199" class="circle"/>
+        <h2 class="icon">Beijing</h2>
+        <ul>
+            <li>{{places[0].destination}} </li>
+            <li>{{places[0].departureDate | date}}</li>
+            <li>{{places[0].fare | currency}}</li>
+        </ul>
+    </div>
+</div>
