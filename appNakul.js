@@ -3,7 +3,7 @@
     angular.module('appNakul', ['ngRoute','ngResource'])
         .config(function ($routeProvider,$httpProvider) {
             $routeProvider.when('/home', {
-                title: 'Nakul Chawla',
+                title: 'Prakhar Khandelwal',
                 templateUrl: 'home/home.html',
                 controller: 'homeCtrl'
             })
@@ -13,7 +13,7 @@
                     controller: 'resumeCtrl'
                 })
                 .when('/', {
-                    title: 'Nakul Chawla',
+                    title: 'Prakhar Khandelwal',
                     templateUrl: 'home/home.html',
                     controller: 'homeCtrl'
 
